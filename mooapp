@@ -1,0 +1,2 @@
+cp -r ~/Dropbox/mooApps/* /var/www/mooApps/
+

@@ -1,0 +1,5 @@
+cp -r ~/Dropbox/SportsAMS/web/* /var/www/sportsams/
+
+sed -i 's_/sportsams/_/_' /var/www/sportsams/index.php
+sed -i 's_/sportsams/_/_' /var/www/sportsams/router.php
+sed -i 's_/sportsams/_/_' /var/www/sportsams/css/*.css

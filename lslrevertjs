@@ -1,0 +1,2 @@
+cp -r ~/Dropbox/LSL/web/js/* /var/www/js_hosting/lsl/
+echo "JS set for localhost"
