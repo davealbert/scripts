@@ -1,0 +1,6 @@
+for f in "$@"
+	do
+			/Applications/NetBeans/NetBeans\ 7.1.app/Contents/MacOS/netbeans --open "$f"
+	done
+
+
