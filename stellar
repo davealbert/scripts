@@ -1,0 +1,6 @@
+rm ~/Desktop/stellar_master.zip
+
+cd /Users/davealbert/code/iQ.mercury/stellar
+zip -r stellar_master.zip *
+mv stellar_master.zip ~/Desktop/
+

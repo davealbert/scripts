@@ -1,0 +1,6 @@
+rm ~/Desktop/Cialis_master.zip
+
+cd /Users/davealbert/code/iQ.mercury/Cialis/
+zip -r Cialis_master.zip *
+mv Cialis_master.zip ~/Desktop/
+

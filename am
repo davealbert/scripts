@@ -1,0 +1,11 @@
+git add *
+
+if [ "$1" = "-np" ]
+then
+	git commit -am "${*:2}"
+else
+	git commit -am "$*"
+	git push
+fi
+
+

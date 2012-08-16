@@ -1,0 +1,20 @@
+PASS1="c0rm@c233"
+USER1="testingpublicisd"
+
+SERVER1="78.153.208.99"
+
+FTPLOGFILE='/tmp/ftp_log'
+
+cd /Users/davealbert/code/Microsites/poll/
+
+ftp -n -v $SERVER1 <<SCRIPT >> ${FTPLOGFILE} 2>&1
+	 quote USER $USER1
+	 quote PASS $PASS1
+	 cd httpdocs/poll
+	 prompt
+	 bi
+	 mput *
+	 quit
+	 SCRIPT
+
+

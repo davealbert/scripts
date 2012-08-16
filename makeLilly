@@ -7,3 +7,7 @@ cd "../Cymbalta Primary Care IVA"/
 zip -r Lilly_GP_master.zip *
 mv Lilly_GP_master.zip ~/Desktop/
 
+cd ../Strattera_ADHD/ 
+zip -r Strattera_master.zip *
+mv Strattera_master.zip ~/Desktop/
+

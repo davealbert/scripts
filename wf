@@ -5,5 +5,14 @@ if `pwd | grep "/Users/davealbert/Dropbox/Notes" 1>/dev/null 2>&1`
 		echo 
 	else
 		cd /Users/davealbert/Dropbox/Notes/	
-	fi
-clear;grep -r @WF *
+fi
+
+clear
+
+if [ "$NUM" == "" ] 
+	then
+		grep -r @WF *
+	else
+		grep -r @WF * |grep -i $NUM
+fi
+
