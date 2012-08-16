@@ -11,8 +11,8 @@ clear
 
 if [ "$NUM" == "" ] 
 	then
-		grep -r @WF *
+		grep -r --color @WF *
 	else
-		grep -r @WF * |grep -i $NUM
+		grep -r @WF * |grep -i --color $NUM
 fi
 
