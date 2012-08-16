@@ -1,9 +1,10 @@
 NUM=$1
 
-if `pwd | grep "/Users/davealbert/Dropbox/Notes" 1>/dev/null 2>&1`
+if `pwd | grep "/Dropbox/Notes" 1>/dev/null 2>&1`
 	then
 		echo 
 	else
+<<<<<<< HEAD
 		cd /Users/davealbert/Dropbox/Notes/	
 fi
 
@@ -20,3 +21,12 @@ fi
 echo
 echo
 cat /Users/davealbert/Dropbox/Notes/today
+||||||| merged common ancestors
+		cd /Users/davealbert/Dropbox/Notes/	
+	fi
+clear;grep -r @Next * 
+=======
+	cd ~/Dropbox/Notes/	
+	fi
+clear;grep -r @Next * 
+>>>>>>> 5560fe97d1d194c4274302cf21c3a67ab80d6b79
