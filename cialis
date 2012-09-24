@@ -4,3 +4,11 @@ cd /Users/davealbert/code/iQ.mercury/Cialis/
 zip -r Cialis_master.zip *
 mv Cialis_master.zip ~/Desktop/
 
+
+
+rm ~/Desktop/CialisShort_master.zip
+
+cd /Users/davealbert/code/iQ.mercury/CialisShort/
+zip -r CialisShort_master.zip *
+mv CialisShort_master.zip ~/Desktop/
+

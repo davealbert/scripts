@@ -1,0 +1,7 @@
+for var in "$@"
+do
+LIST="$LIST $var/index.html $var/_css/* $var/_javascript/*"
+done
+
+vi -p $LIST
+

@@ -1,0 +1,2 @@
+grep -irn --exclude="TODO"  todo * | grep -v Binary
+
