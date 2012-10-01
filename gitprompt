@@ -21,7 +21,7 @@ branch_color ()
 if git rev-parse --git-dir >/dev/null 2>&1
 then
 color=""
-if git diff --quiet 2>/dev/null >&2 
+if git diff --quiet 2>/dev/null >&2
 then
 color="${c_green}"
 else

@@ -1,23 +1,22 @@
 NUM=$1
 
 if `pwd | grep "/Dropbox/Notes" 1>/dev/null 2>&1`
-	then
-		echo 
-	else
-		cd ~/Dropbox/Notes/	
+  then
+    echo
+  else
+    cd ~/Dropbox/Notes/
 fi
 
 clear
 
-if [ "$NUM" == "" ] 
-	then
-		grep -r --color @Next *
-	else
-		grep -r --color @Next * |grep -i $NUM
+if [ "$NUM" == "" ]
+  then
+    grep -r --color @Next *
+  else
+    grep -r --color @Next * |grep -i $NUM
 fi
 
 
 echo
 echo
 cat ~/Dropbox/Notes/today
-

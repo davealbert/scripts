@@ -5,4 +5,4 @@ ABC=$(history -p \!\!)
 
 
 clear
-eval $ABC 
+eval $ABC

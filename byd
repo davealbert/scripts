@@ -1,6 +1,6 @@
 rm ~/Desktop/byd_master.zip
 
-cd /Users/davealbert/code/iQ.mercury/Bydureon/New\ Irish/
+cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/Bydureon/New\ Irish/
 zip -r byd_master.zip *
 mv byd_master.zip ~/Desktop/
 

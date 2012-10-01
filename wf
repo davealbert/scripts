@@ -1,18 +1,17 @@
 NUM=$1
 
 if `pwd | grep "/Users/davealbert/Dropbox/Notes" 1>/dev/null 2>&1`
-	then
-		echo 
-	else
-		cd /Users/davealbert/Dropbox/Notes/	
+  then
+    echo
+  else
+    cd /Users/davealbert/Dropbox/Notes/
 fi
 
 clear
 
-if [ "$NUM" == "" ] 
-	then
-		grep -r --color @WF *
-	else
-		grep -r @WF * |grep -i --color $NUM
+if [ "$NUM" == "" ]
+  then
+    grep -r --color @WF *
+  else
+    grep -r @WF * |grep -i --color $NUM
 fi
-
