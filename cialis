@@ -1,14 +1,23 @@
-rm ~/Desktop/Cialis_master.zip
+rm ~/Desktop/Cialis_first_master.zip
 
-cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/Cialis/
-zip -r Cialis_master.zip *
-mv Cialis_master.zip ~/Desktop/
+cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/cialis-first-line/
+zip -r Cialis_first_master.zip *
+mv Cialis_first_master.zip ~/Desktop/
 
 
 
-rm ~/Desktop/CialisShort_master.zip
+rm ~/Desktop/Cialis_second_master.zip
 
-cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/CialisShort/
-zip -r CialisShort_master.zip *
-mv CialisShort_master.zip ~/Desktop/
+cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/cialis-second-line/
+zip -r Cialis_second_master.zip *
+mv Cialis_second_master.zip ~/Desktop/
+
+
+
+
+rm ~/Desktop/Cialis_hospital_master.zip
+
+cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/cialis-hospital-team/
+zip -r Cialis_hospital_master.zip *
+mv Cialis_hospital_master.zip ~/Desktop/
 
