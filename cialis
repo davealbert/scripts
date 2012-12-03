@@ -15,9 +15,9 @@ mv Cialis_second_master.zip ~/Desktop/
 
 
 
-rm ~/Desktop/Cialis_hospital_master.zip
+#rm ~/Desktop/Cialis_hospital_master.zip
 
-cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/cialis-hospital-team/
-zip -r Cialis_hospital_master.zip *
-mv Cialis_hospital_master.zip ~/Desktop/
+#cd /Users/davealbert/code/_Publicis/HTML/iQ.mercury/cialis-hospital-team/
+#zip -r Cialis_hospital_master.zip *
+#mv Cialis_hospital_master.zip ~/Desktop/
 
