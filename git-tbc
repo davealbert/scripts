@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git describe --always --tag
+git log -1 --format="%H%n%aD"
+git rev-parse --abbrev-ref HEAD
