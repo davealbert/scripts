@@ -1,0 +1,9 @@
+#!/bin/bash
+
+day=$(date "+%d")
+month=$(date "+%B")
+year=$(date "+%Y")
+file=$(echo $day-$month-$year.xls)
+curl http://testing.publicisd.ie/clients/mundipharma/api/sampleDownload.php > /Users/davealbert/sample-working/$file
+
+(echo "Here is the monthly Sampling Report.";uuencode /Users/davealbert/sample-working/$file $file)|mail -s "Monthly Sampling Report" dave.albert@publicisdhealthcare.ie,julie.odonnell@publicisdhealthcare.ie
