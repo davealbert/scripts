@@ -1,0 +1,2 @@
+HOST=$1
+echo -e  "HEAD / HTTP/1.1 \nHost: $HOST" | openssl s_client -connect $HOST:443
