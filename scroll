@@ -1,0 +1,11 @@
+if [ $# -lt 1 ];then
+echo 'usage: scroll <filename> [<speed>]';
+else
+if [ "$2a" == "a" ];then
+SPEED=5;
+else
+SPEED=$2;
+fi
+echo "Speed: $SPEED"
+SIZE=0; while [ $SIZE -lt $(stat -c%s "$1") ]; do hexdump $1 -C -n 352 -s $SIZE; SIZE=$(expr $SIZE + 352);sleep $SPEED;done
+fi
